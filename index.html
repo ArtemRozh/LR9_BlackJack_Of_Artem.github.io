@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lr 9</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="..\IMG\Anything else\favicon.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="players-container">
+            <div class="player-info"><span id="player-name"> Default Player </span><br>
+                <div class="result" id="player_result"> 0 </div>
+            </div>
+            <div class="card-container" id="player_card_container">
+                <div class="card" id="player_card"></div>
+            </div>
+        </div>
+        <div class="draw-container">
+            <div class="spacer"></div>
+            <div class="btn-container"><span id="currentSpan"> Спроба 0 з 3 </span><br>
+                <input type="button" value="Витягуй карту" id="draw_btn">    
+            </div>
+            <div class="deck-container">
+                <div id="deck_back"></div>
+            </div>
+        </div>
+        <div class="players-container">
+            <div class="player-info"><span> CPU</span><br>
+                <div class="result" id="cpu_result"> 0 </div>
+            </div>
+            <div class="card-container" id="cpu_card_container">
+                <div class="card" id="cpu_card"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div id="verdict">
+            <!-- Game over
+            <hr id="divider">
+            <span class="typing-cursor"></span> -->
+        </div>
+    </div>
+</body>
+</html>
