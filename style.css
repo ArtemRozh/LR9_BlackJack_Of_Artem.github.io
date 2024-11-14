@@ -131,7 +131,7 @@ body {
 #deck_back{
 	width: 85%;
 	height: 70%;
-	background-image: url("../IMG/cards/back.jpg");
+	background-image: url("IMG/cards/back.jpg");
 	background-size: cover;
 	background-position: center;
 }
