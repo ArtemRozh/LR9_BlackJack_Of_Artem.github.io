@@ -21,15 +21,15 @@ if(tempName === null || tempName.trim() === "" || tempName.length >= 24){
 }
 
 const deckTemp = [
-    { value: 11, imgPath: "../IMG/cards/A_" },
-    { value: 6,  imgPath: "../IMG/cards/6_" },
-    { value: 7,  imgPath: "../IMG/cards/7_" },
-    { value: 8,  imgPath: "../IMG/cards/8_" },
-    { value: 9,  imgPath: "../IMG/cards/9_" },
-    { value: 10, imgPath: "../IMG/cards/10_" },
-    { value: 2,  imgPath: "../IMG/cards/J_" },
-    { value: 3,  imgPath: "../IMG/cards/Q_" },
-    { value: 4,  imgPath: "../IMG/cards/K_" }
+    { value: 11, imgPath: "IMG/cards/A_" },
+    { value: 6,  imgPath: "IMG/cards/6_" },
+    { value: 7,  imgPath: "IMG/cards/7_" },
+    { value: 8,  imgPath: "IMG/cards/8_" },
+    { value: 9,  imgPath: "IMG/cards/9_" },
+    { value: 10, imgPath: "IMG/cards/10_" },
+    { value: 2,  imgPath: "IMG/cards/J_" },
+    { value: 3,  imgPath: "IMG/cards/Q_" },
+    { value: 4,  imgPath: "IMG/cards/K_" }
 ];
 let values = [0, 0];
 
